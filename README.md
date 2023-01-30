@@ -3,7 +3,15 @@ It has been quite few times I have seen Filebeat running as root and capable of 
 
 Here the steps to leverage the filebeat to obtain a shell as root. (arbitray write in the filesyste).
 
+The following exploit.yml is meant to add the "attacker ssh" key to the authorized_keys file.
 
 
+Dowload the file exploit.yml.
 
+1) Save your public key in the following file /tmp/attackerkey. 
+2) Run the follwowing command  sudo ./filebeat -c exploit.yml
+3) Enjoy your key added to /root/.ssh/authorized_keys
+
+
+Thank you.
 
